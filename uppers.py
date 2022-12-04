@@ -43,7 +43,7 @@ def main():
         headers = {
             "Authorization": f"Bearer {auth_token}"
         },
-        timeout=4,
+        timeout=7,
         verify=False
     )
         
